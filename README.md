@@ -75,7 +75,8 @@ git clone https://github.com/yaswinipriyas24/AI-DJ-MOOD.git
 cd AI-DJ-MOOD
 pip install -r requirements.txt
 
-## 🧪 Dataset
+# 🧪 Dataset
+
 We use the FER2013 (Facial Expression Recognition) dataset:
 
 Classes: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
