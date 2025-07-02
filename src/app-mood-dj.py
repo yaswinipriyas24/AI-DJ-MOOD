@@ -13,8 +13,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 # 🔒 Replace with your actual keys
-client_id = ''
-client_secret = ''
+client_id = '######'
+client_secret = '####'
 
 # Set up Spotify connection
 auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
@@ -192,8 +192,8 @@ else:
     print("🎧 Music Query:", music_query)
 
     # 🎵 Spotify Setup
-    client_id = ''
-    client_secret = ''
+    client_id = '########'
+    client_secret = '#######'
 
     sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
         client_id=client_id, client_secret=client_secret))
@@ -217,4 +217,4 @@ else:
         else:
             print("⚠️ No preview available for this track.")
     else:
-        print("❌ No results found on Spotify.")
+        print("❌ No results found .")
